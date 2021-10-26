@@ -2,7 +2,7 @@ version: '3'
 services:
   postgres-server:
     container_name: postgres-server
-    image: postgres
+    image: postgres:13
     restart: always
     volumes:
       - /home/nora/Programs/Data/postgres-data:/var/lib/postgresql/data
